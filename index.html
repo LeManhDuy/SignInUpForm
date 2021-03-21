@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Dang Nhap Dang Ky</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+    <!-- Đây là Form Đăng Ký -->
+    <section class="signup">
+        <div class="container">
+            <div class="main">
+                <div class="row">
+                    <div class="col">
+                        <form class="signup-form">
+                            <h2 class="form-title">Đăng Ký</h2>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-account material-icons-name"></i></span>
+                                    </div>
+                                    <input type="name" class="form-control" id="name" placeholder="Tên của bạn">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-email"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" id="email" placeholder="Email của bạn">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-lock"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-lock-outline"></i></span>
+                                    </div>
+                                    <input type="re-password" class="form-control" id="re-password" placeholder="Nhập lại mật khẩu">
+                                </div>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="check1">
+                                <label class="form-check-label" for="check1">Tôi đồng ý với <a href="#" class="term-service">Điều khoản dịch vụ</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary" style="font-size: 20px; width: 20%;">Đăng ký</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <form class="signup-image">
+                            <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                            <a href="#" class="signup-image-link">I am already member</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Đây là Form Đăng Nhập -->
+    <section class="signin">
+        <div class="container">
+            <div class="main">
+                <div class="row">
+                    <div class="col">
+                        <form class="signup-image">
+                            <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                            <a href="#" class="signup-image-link-2">Tạo tài khoản</a>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <form class="signup-form">
+                            <h2 class="form-title">Đăng Nhập</h2>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-account material-icons-name"></i></span>
+                                    </div>
+                                    <input type="name" class="form-control" id="name" placeholder="Tên của bạn">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="zmdi zmdi-lock"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" id="password" placeholder="Mật khẩu">
+                                </div>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="check2">
+                                <label class="form-check-label" for="check2">Nhớ tài khoản</label>
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary" style="font-size: 20px; width: 20%;">Đăng nhập</button>
+                            <div class="social-login" style="display:flex;">
+                                <span class="social-label">Or login with</span>
+                                <ul class="social-network social-circle">
+                                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter-square"></i></a></li>
+                                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fab fa-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>
